@@ -1,0 +1,35 @@
+Anandabhairavi:
+  arohana: ['S', 'G2', 'R2', 'G2', 'M1', 'P', 'D2', 'P', 'N2', 'S']
+  avorahana: ['S', 'N2', 'D2', 'P', 'M1', 'G2', 'R2', 'S']
+
+Begada:
+  arohana: ['S', 'G3', 'R2', 'G3', 'M1', 'P', 'D2', 'N2', 'D2', 'P', 'S']
+  avorahana: ['S', 'N3', 'D2', 'P', 'M1', 'G3', 'R2', 'S']
+
+Bhairavi: 
+  arohana: ['S', 'R2', 'G2', 'M1', 'P', 'D2', 'N2', 'S']
+  avorahana: ['S', 'N2', 'D1', 'P', 'M1', 'G2', 'R2', 'S']
+
+Bilahari:
+  arohana: ['S', 'R2', 'G3', 'P', 'D2', 'S']
+  avorahana: ['S', 'N3', 'D2', 'P', 'M1', 'G3', 'R2', 'S']
+
+Kalyani:
+  arohana: ['S', 'R2', 'G3', 'M2', 'P', 'D2', 'N3', 'S']
+  avorahana: ['S', 'N3', 'D2', 'P', 'M2', 'G3', 'R2', 'S']
+
+Ritigaula:
+  arohana: ['S', 'G2', 'R2', 'G2', 'M1', 'N2', 'D2', 'M1', 'N2', 'N2', 'S']
+  avorahana: ['S', 'N2', 'D2', 'M1', 'G2', 'M1', 'P', 'M1', 'G2', 'R2', 'S']
+
+Sankarabharanam:
+  arohana: ['S', 'R2', 'G3', 'M1', 'P', 'D2', 'N3', 'S']
+  avorahana: ['S', 'N3', 'D2', 'P', 'M1', 'G3', 'R2', 'S']
+
+Todi:
+  arohana: ['S', 'R1', 'G2', 'M1', 'P', 'D1', 'N2', 'S']
+  avorahana: ['S', 'N2', 'D1', 'P', 'M1', 'G2', 'R1', 'S']
+
+Varaali:
+  arohana: ['S', 'G1', 'R1', 'G1', 'M2', 'P', 'D1', 'N3', 'S']
+  avorahana: ['S', 'N3', 'D1', 'P', 'M2', 'G1', 'R1', 'S']
