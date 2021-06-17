@@ -1,1 +1,12 @@
-spleeter
+numpy~=1.19.5
+matplotlib~=3.4.2
+spleeter~=2.2.1
+essentia~=2.1b6.dev234
+librosa~=0.8.0
+scipy~=1.6.3
+mirdata~=0.3.3
+pandas~=1.2.4
+stumpy~=1.8.0
+PyYAML~=5.4.1
+SoundFile~=0.10.3.post1
+tqdm~=4.60.0
