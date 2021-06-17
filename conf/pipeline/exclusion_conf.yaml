@@ -1,0 +1,14 @@
+# To not use any exclusion functions pass an empty list - []
+exclusion_funcs:
+   - func: !dottedname src.sequence.contains_silence
+     kwargs:
+       thresh: 0.05
+   - func: !dottedname src.sequence.too_stable
+     kwargs:
+       dev_thresh: 5
+       perc_thresh: 0.63
+       window: 200
+   - func: !dottedname src.sequence.min_gap
+     kwargs:
+       length: 86
+

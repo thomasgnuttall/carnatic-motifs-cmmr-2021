@@ -1,0 +1,29 @@
+# If passed, yticks dict should be a dict of ytick name: ytick value
+# These ticks will replace those automatically generate by matplotlib 
+# in the plots
+yticks_dict: {}
+
+# If True, y axis will be scaled to cents above <tonic>
+cents: False
+
+# Tonic for cents normalisation (if None, no normalisation)
+tonic: 
+
+# List of ticks corresponding to keys in <yticks_dict>
+# these ticks will be highlighted in the plot
+emphasize: []
+
+# Size of plot figures to output
+figsize: [15,4]
+
+# Title of plots, automatically set if None
+title:
+
+# x label of plots, automatically set if None
+xlabel:
+
+# y label of plots, automatically set if None
+ylabel:
+
+# Gridlines on plots?
+grid: True

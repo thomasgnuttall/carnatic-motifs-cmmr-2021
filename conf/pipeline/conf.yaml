@@ -1,0 +1,42 @@
+# Path to audio file to search
+audio_path: '/Users/thomasnuttall/mir_datasets/saraga_carnatic/saraga1.5_carnatic/Akkarai Sisters at Arkay by Akkarai Sisters/Koti Janmani/Koti Janmani.multitrack-vocal.mp3'
+
+############################
+### Extracting Pitch Track #
+############################
+# For Melodia pitch extraction
+sampling_rate: 44100 
+frameSize: 2048
+hopSize: 128
+
+# Tidy Pitch curve
+gap_interp: 0.250 # Interpolate pitch tracks gaps of <gap_interp>seconds or less [set to None to skip]
+smooth: 7 # sigma for gaussian smoothing of pitch track [set to None to skip]
+
+
+###################
+### Motif Finding #
+###################
+# Length in seconds of motifs to search for
+m_secs: 5
+# Whether to cache matrix profile for quicker run next time
+cache: True
+# Maximum number of unique motif groups to return
+top_n: 15
+# Maximum number of occurrences to return in each motif group
+n_occ: 20
+# Minimum number of occurrences to return in each motif group
+min_occ: 3 
+# patterns with parent distances above this threshold are not considered
+thresh: 1.5
+
+
+############
+### Output #
+############
+# Directory to output results too
+out_dir: '/Users/thomasnuttall/Desktop/test/'
+
+# What to ouput
+output_plots: True
+output_audio: True
