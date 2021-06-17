@@ -1,0 +1,1 @@
+{"top_n": 15, "n_occ": 20, "min_occ": 3, "thresh": 0.65, "sampling_rate": 44100, "frameSize": 2048, "hopSize": 128, "gap_interp": 0.25, "smooth": 7}
