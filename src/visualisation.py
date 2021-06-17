@@ -233,7 +233,7 @@ def plot_pitch(
         s_len = len(pitch)
         
     if figsize:
-        assert isinstance(figsize, tuple), \
+        assert isinstance(figsize, (tuple,list)), \
             "<figsize> should be a tuple of (width, height)"
         assert len(figsize) == 2, \
             "<figsize> should be a tuple of (width, height)"
@@ -288,6 +288,8 @@ def plot_pitch(
     times_samp = times[:s_len]
     pitch_masked_samp = pitch_masked[:s_len]
 
+    times_samp = times_samp[:min(len(times_samp), len(pitch_masked_samp))]
+    pitch_masked_samp = times_samp[:min(len(times_samp), len(pitch_masked_samp))]
     plt.plot(times_samp, pitch_masked_samp, linewidth=0.7)
 
     if yticks_dict:
